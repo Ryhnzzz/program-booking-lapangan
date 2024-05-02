@@ -4,8 +4,6 @@
  */
 package bookingFrame;
 
-import userFrame.ListBooking;
-
 /**
  *
  * @author ASUS
@@ -17,7 +15,6 @@ public class BookingRequest extends javax.swing.JFrame {
      */
     public BookingRequest() {
         initComponents();
-      
     }
 
     /**
@@ -106,63 +103,54 @@ public class BookingRequest extends javax.swing.JFrame {
         jToggleButton47 = new javax.swing.JToggleButton();
         jToggleButton48 = new javax.swing.JToggleButton();
         jPanel1 = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        ButtonWaktu1 = new javax.swing.JToggleButton();
-        ButtonWaktu8 = new javax.swing.JToggleButton();
-        ButtonWaktu2 = new javax.swing.JToggleButton();
-        ButtonWaktu3 = new javax.swing.JToggleButton();
-        ButtonWaktu4 = new javax.swing.JToggleButton();
-        ButtonWaktu5 = new javax.swing.JToggleButton();
-        ButtonWaktu6 = new javax.swing.JToggleButton();
-        ButtonWaktu7 = new javax.swing.JToggleButton();
-        ButtonWaktu10 = new javax.swing.JToggleButton();
-        ButtonWaktu9 = new javax.swing.JToggleButton();
-        ButtonWaktu12 = new javax.swing.JToggleButton();
-        ButtonWaktu11 = new javax.swing.JToggleButton();
-        ButtonWaktu13 = new javax.swing.JToggleButton();
-        ButtonWaktu14 = new javax.swing.JToggleButton();
+        jToggleButton62 = new javax.swing.JToggleButton();
+        jToggleButton63 = new javax.swing.JToggleButton();
+        jToggleButton64 = new javax.swing.JToggleButton();
+        jToggleButton65 = new javax.swing.JToggleButton();
+        jToggleButton66 = new javax.swing.JToggleButton();
+        jToggleButton67 = new javax.swing.JToggleButton();
+        jToggleButton68 = new javax.swing.JToggleButton();
+        jToggleButton69 = new javax.swing.JToggleButton();
+        jToggleButton70 = new javax.swing.JToggleButton();
+        jToggleButton71 = new javax.swing.JToggleButton();
+        jToggleButton72 = new javax.swing.JToggleButton();
+        jToggleButton73 = new javax.swing.JToggleButton();
+        jToggleButton74 = new javax.swing.JToggleButton();
+        jToggleButton75 = new javax.swing.JToggleButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        ButtonLapangan1 = new javax.swing.JToggleButton();
+        jToggleButton5 = new javax.swing.JToggleButton();
         jPanel5 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
-        ButtonLapangan2 = new javax.swing.JToggleButton();
-        TextFieldNamaTeam = new javax.swing.JTextField();
+        jToggleButton6 = new javax.swing.JToggleButton();
+        jTextField3 = new javax.swing.JTextField();
         jLabel28 = new javax.swing.JLabel();
-        ButtonBooking = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
         jLabel29 = new javax.swing.JLabel();
-        TextFieldNoTelp = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jPanel6 = new javax.swing.JPanel();
         jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
-        jTextField1.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField1.setCaretColor(new java.awt.Color(0, 0, 0));
         jTextField1.setSelectedTextColor(new java.awt.Color(0, 0, 0));
         jTextField1.setSelectionColor(new java.awt.Color(255, 255, 255));
 
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Nama Team:");
 
         jDesktopPane4.setBackground(new java.awt.Color(255, 204, 102));
         jDesktopPane4.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
 
-        jToggleButton1.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton1.setText("Lapangan 1");
 
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Lapangan 1");
 
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Rumput Sintetis");
 
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Rp.150.000 / jam");
 
         jDesktopPane4.setLayer(jToggleButton1, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -217,28 +205,20 @@ public class BookingRequest extends javax.swing.JFrame {
         jLabel2.setMaximumSize(new java.awt.Dimension(40, 20));
         jLabel2.setPreferredSize(new java.awt.Dimension(50, 20));
 
-        jTextField2.setBackground(new java.awt.Color(255, 255, 255));
-        jTextField2.setForeground(new java.awt.Color(0, 0, 0));
-        jTextField2.setCaretColor(new java.awt.Color(0, 0, 0));
         jTextField2.setSelectedTextColor(new java.awt.Color(0, 0, 0));
         jTextField2.setSelectionColor(new java.awt.Color(255, 255, 255));
 
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("Nama Team:");
 
         jDesktopPane5.setBackground(new java.awt.Color(255, 204, 102));
         jDesktopPane5.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
 
-        jToggleButton3.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton3.setText("Lapangan 1");
 
-        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("Lapangan 1");
 
-        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("Rumput Sintetis");
 
-        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("Rp.150.000 / jam");
 
         jDesktopPane5.setLayer(jToggleButton3, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -327,7 +307,6 @@ public class BookingRequest extends javax.swing.JFrame {
         jDesktopPane8.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(51, 51, 51)));
 
         jToggleButton13.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton13.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton13.setText("14:00 - 15:00");
         jToggleButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -336,7 +315,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton14.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton14.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton14.setText("13:00 - 14:00");
         jToggleButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -345,7 +323,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton16.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton16.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton16.setText("12:00 - 13:00");
         jToggleButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -354,7 +331,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton20.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton20.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton20.setText("11:00 - 12:00");
         jToggleButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -363,7 +339,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton25.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton25.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton25.setText("10:00 - 11:00");
         jToggleButton25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -372,7 +347,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton26.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton26.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton26.setText("09:00 - 10:00");
         jToggleButton26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,7 +355,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton27.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton27.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton27.setText("21:00 - 22:00");
         jToggleButton27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -390,31 +363,24 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton28.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton28.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton28.setText("18:00 - 19:00");
 
         jToggleButton29.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton29.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton29.setText("19:00 - 20:00");
 
         jToggleButton30.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton30.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton30.setText("20:00 - 21:00");
 
         jToggleButton31.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton31.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton31.setText("17:00 - 18:00");
 
         jToggleButton32.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton32.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton32.setText("16:00 - 17:00");
 
         jToggleButton33.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton33.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton33.setText("15:00 - 16:00");
 
         jToggleButton34.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton34.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton34.setText("08:00 - 09:00");
         jToggleButton34.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jToggleButton34.setName(""); // NOI18N
@@ -504,7 +470,6 @@ public class BookingRequest extends javax.swing.JFrame {
         jDesktopPane9.setBackground(new java.awt.Color(255, 204, 102));
         jDesktopPane9.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
 
-        jToggleButton4.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton4.setText("Lapangan 1");
         jToggleButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -512,13 +477,10 @@ public class BookingRequest extends javax.swing.JFrame {
             }
         });
 
-        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("Lapangan 2");
 
-        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
         jLabel17.setText("Karpet");
 
-        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setText("Rp.175.000 / jam");
 
         jDesktopPane9.setLayer(jToggleButton4, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -656,7 +618,6 @@ public class BookingRequest extends javax.swing.JFrame {
         jDesktopPane3.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(51, 51, 51)));
 
         jToggleButton7.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton7.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton7.setText("14:00 - 15:00");
         jToggleButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -665,7 +626,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton8.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton8.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton8.setText("13:00 - 14:00");
         jToggleButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -674,7 +634,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton9.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton9.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton9.setText("12:00 - 13:00");
         jToggleButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -683,7 +642,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton10.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton10.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton10.setText("11:00 - 12:00");
         jToggleButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -692,7 +650,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton11.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton11.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton11.setText("10:00 - 11:00");
         jToggleButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -701,7 +658,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton12.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton12.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton12.setText("09:00 - 10:00");
         jToggleButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -710,7 +666,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton15.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton15.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton15.setText("21:00 - 22:00");
         jToggleButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -719,31 +674,24 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton17.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton17.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton17.setText("18:00 - 19:00");
 
         jToggleButton18.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton18.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton18.setText("19:00 - 20:00");
 
         jToggleButton19.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton19.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton19.setText("20:00 - 21:00");
 
         jToggleButton21.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton21.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton21.setText("17:00 - 18:00");
 
         jToggleButton22.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton22.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton22.setText("16:00 - 17:00");
 
         jToggleButton23.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton23.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton23.setText("15:00 - 16:00");
 
         jToggleButton24.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton24.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton24.setText("08:00 - 09:00");
         jToggleButton24.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jToggleButton24.setName(""); // NOI18N
@@ -833,7 +781,6 @@ public class BookingRequest extends javax.swing.JFrame {
         jDesktopPane6.setBackground(new java.awt.Color(255, 204, 102));
         jDesktopPane6.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
 
-        jToggleButton2.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton2.setText("Lapangan 1");
         jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -841,13 +788,10 @@ public class BookingRequest extends javax.swing.JFrame {
             }
         });
 
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Lapangan 2");
 
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Karpet");
 
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Rp.175.000 / jam");
 
         jDesktopPane6.setLayer(jToggleButton2, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -892,7 +836,6 @@ public class BookingRequest extends javax.swing.JFrame {
         jDesktopPane10.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(51, 51, 51)));
 
         jToggleButton35.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton35.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton35.setText("14:00 - 15:00");
         jToggleButton35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -901,7 +844,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton36.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton36.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton36.setText("13:00 - 14:00");
         jToggleButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -910,7 +852,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton37.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton37.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton37.setText("12:00 - 13:00");
         jToggleButton37.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -919,7 +860,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton38.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton38.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton38.setText("11:00 - 12:00");
         jToggleButton38.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -928,7 +868,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton39.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton39.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton39.setText("10:00 - 11:00");
         jToggleButton39.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -937,7 +876,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton40.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton40.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton40.setText("09:00 - 10:00");
         jToggleButton40.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -946,7 +884,6 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton41.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton41.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton41.setText("21:00 - 22:00");
         jToggleButton41.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -955,31 +892,24 @@ public class BookingRequest extends javax.swing.JFrame {
         });
 
         jToggleButton42.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton42.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton42.setText("18:00 - 19:00");
 
         jToggleButton43.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton43.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton43.setText("19:00 - 20:00");
 
         jToggleButton44.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton44.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton44.setText("20:00 - 21:00");
 
         jToggleButton45.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton45.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton45.setText("17:00 - 18:00");
 
         jToggleButton46.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton46.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton46.setText("16:00 - 17:00");
 
         jToggleButton47.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton47.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton47.setText("15:00 - 16:00");
 
         jToggleButton48.setBackground(new java.awt.Color(255, 204, 102));
-        jToggleButton48.setForeground(new java.awt.Color(0, 0, 0));
         jToggleButton48.setText("08:00 - 09:00");
         jToggleButton48.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jToggleButton48.setName(""); // NOI18N
@@ -1068,210 +998,162 @@ public class BookingRequest extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(35, 45, 63));
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel1.setBackground(new java.awt.Color(71, 109, 124));
 
-        jPanel2.setBackground(new java.awt.Color(0, 91, 65));
-        jPanel2.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 2, 0, new java.awt.Color(35, 45, 63)));
-        jPanel2.setPreferredSize(new java.awt.Dimension(800, 500));
-
-        jButton3.setBackground(new java.awt.Color(0, 91, 65));
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(153, 153, 153));
-        jButton3.setText("Home");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-
-        jButton4.setBackground(new java.awt.Color(0, 91, 65));
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Booking");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton4)
-                .addContainerGap(1116, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4))
-                .addContainerGap(10, Short.MAX_VALUE))
-        );
-
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1279, 41));
-
-        jPanel3.setBackground(new java.awt.Color(0, 91, 65));
+        jPanel3.setBackground(new java.awt.Color(37, 75, 98));
         jPanel3.setPreferredSize(new java.awt.Dimension(700, 85));
 
-        ButtonWaktu1.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu1.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu1.setText("08:00 - 09:00");
-        ButtonWaktu1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu1.setName(""); // NOI18N
-        ButtonWaktu1.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton62.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton62.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton62.setText("08:00 - 09:00");
+        jToggleButton62.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton62.setName(""); // NOI18N
+        jToggleButton62.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu1ActionPerformed(evt);
+                jToggleButton62ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu8.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu8.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu8.setText("15:00 - 16:00");
-        ButtonWaktu8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu8.setName(""); // NOI18N
-        ButtonWaktu8.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton63.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton63.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton63.setText("15:00 - 16:00");
+        jToggleButton63.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton63.setName(""); // NOI18N
+        jToggleButton63.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu8ActionPerformed(evt);
+                jToggleButton63ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu2.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu2.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu2.setText("09:00 - 10:00");
-        ButtonWaktu2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu2.setName(""); // NOI18N
-        ButtonWaktu2.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton64.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton64.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton64.setText("09:00 - 10:00");
+        jToggleButton64.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton64.setName(""); // NOI18N
+        jToggleButton64.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu2ActionPerformed(evt);
+                jToggleButton64ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu3.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu3.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu3.setText("10:00 - 11:00");
-        ButtonWaktu3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu3.setName(""); // NOI18N
-        ButtonWaktu3.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton65.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton65.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton65.setText("10:00 - 11:00");
+        jToggleButton65.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton65.setName(""); // NOI18N
+        jToggleButton65.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu3ActionPerformed(evt);
+                jToggleButton65ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu4.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu4.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu4.setText("11:00 - 12:00");
-        ButtonWaktu4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu4.setName(""); // NOI18N
-        ButtonWaktu4.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton66.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton66.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton66.setText("11:00 - 12:00");
+        jToggleButton66.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton66.setName(""); // NOI18N
+        jToggleButton66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu4ActionPerformed(evt);
+                jToggleButton66ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu5.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu5.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu5.setText("12:00 - 13:00");
-        ButtonWaktu5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu5.setName(""); // NOI18N
-        ButtonWaktu5.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton67.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton67.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton67.setText("12:00 - 13:00");
+        jToggleButton67.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton67.setName(""); // NOI18N
+        jToggleButton67.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu5ActionPerformed(evt);
+                jToggleButton67ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu6.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu6.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu6.setText("13:00 - 14:00");
-        ButtonWaktu6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu6.setName(""); // NOI18N
-        ButtonWaktu6.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton68.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton68.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton68.setText("13:00 - 14:00");
+        jToggleButton68.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton68.setName(""); // NOI18N
+        jToggleButton68.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu6ActionPerformed(evt);
+                jToggleButton68ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu7.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu7.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu7.setText("14:00 - 15:00");
-        ButtonWaktu7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu7.setName(""); // NOI18N
-        ButtonWaktu7.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton69.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton69.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton69.setText("14:00 - 15:00");
+        jToggleButton69.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton69.setName(""); // NOI18N
+        jToggleButton69.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu7ActionPerformed(evt);
+                jToggleButton69ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu10.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu10.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu10.setText("17:00 - 18:00");
-        ButtonWaktu10.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu10.setName(""); // NOI18N
-        ButtonWaktu10.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton70.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton70.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton70.setText("17:00 - 18:00");
+        jToggleButton70.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton70.setName(""); // NOI18N
+        jToggleButton70.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu10ActionPerformed(evt);
+                jToggleButton70ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu9.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu9.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu9.setText("16:00 - 17:00");
-        ButtonWaktu9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu9.setName(""); // NOI18N
-        ButtonWaktu9.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton71.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton71.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton71.setText("16:00 - 17:00");
+        jToggleButton71.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton71.setName(""); // NOI18N
+        jToggleButton71.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu9ActionPerformed(evt);
+                jToggleButton71ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu12.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu12.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu12.setText("19:00 - 20:00");
-        ButtonWaktu12.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu12.setName(""); // NOI18N
-        ButtonWaktu12.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton72.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton72.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton72.setText("19:00 - 20:00");
+        jToggleButton72.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton72.setName(""); // NOI18N
+        jToggleButton72.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu12ActionPerformed(evt);
+                jToggleButton72ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu11.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu11.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu11.setText("18:00 - 19:00");
-        ButtonWaktu11.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu11.setName(""); // NOI18N
-        ButtonWaktu11.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton73.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton73.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton73.setText("18:00 - 19:00");
+        jToggleButton73.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton73.setName(""); // NOI18N
+        jToggleButton73.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu11ActionPerformed(evt);
+                jToggleButton73ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu13.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu13.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu13.setText("20:00 - 21:00");
-        ButtonWaktu13.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu13.setName(""); // NOI18N
-        ButtonWaktu13.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton74.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton74.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton74.setText("20:00 - 21:00");
+        jToggleButton74.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton74.setName(""); // NOI18N
+        jToggleButton74.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu13ActionPerformed(evt);
+                jToggleButton74ActionPerformed(evt);
             }
         });
 
-        ButtonWaktu14.setBackground(new java.awt.Color(35, 45, 63));
-        ButtonWaktu14.setForeground(new java.awt.Color(255, 255, 255));
-        ButtonWaktu14.setText("21:00 - 22:00");
-        ButtonWaktu14.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ButtonWaktu14.setName(""); // NOI18N
-        ButtonWaktu14.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton75.setBackground(new java.awt.Color(35, 45, 63));
+        jToggleButton75.setForeground(new java.awt.Color(255, 255, 255));
+        jToggleButton75.setText("21:00 - 22:00");
+        jToggleButton75.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jToggleButton75.setName(""); // NOI18N
+        jToggleButton75.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonWaktu14ActionPerformed(evt);
+                jToggleButton75ActionPerformed(evt);
             }
         });
 
@@ -1280,128 +1162,126 @@ public class BookingRequest extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(34, 34, 34)
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jToggleButton62, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jToggleButton63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jToggleButton64)
+                    .addComponent(jToggleButton71))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jToggleButton65)
+                    .addComponent(jToggleButton70))
+                .addGap(18, 18, 18)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(ButtonWaktu8, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonWaktu9, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE))
+                        .addComponent(jToggleButton73)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jToggleButton72)
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(ButtonWaktu1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonWaktu2, javax.swing.GroupLayout.DEFAULT_SIZE, 129, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jToggleButton66)
+                        .addGap(19, 19, 19)
+                        .addComponent(jToggleButton67)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)))
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(ButtonWaktu3, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu10, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(jToggleButton68)
+                    .addComponent(jToggleButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(ButtonWaktu11, javax.swing.GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonWaktu12, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonWaktu13, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(ButtonWaktu4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonWaktu5, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(ButtonWaktu6, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(ButtonWaktu14, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu7, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(49, 49, 49))
+                    .addComponent(jToggleButton69)
+                    .addComponent(jToggleButton75))
+                .addGap(182, 182, 182))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ButtonWaktu1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu3, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu4, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu7, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jToggleButton62, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton65, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton67, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton68, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton66, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ButtonWaktu8, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu9, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu12, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu13, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu14, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ButtonWaktu10, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jToggleButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton70, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton73, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton74, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton75, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jToggleButton71, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 53, 1191, -1));
-
-        jPanel4.setBackground(new java.awt.Color(35, 45, 63));
+        jPanel4.setBackground(new java.awt.Color(29, 62, 83));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED, java.awt.Color.white, java.awt.Color.white));
 
-        jLabel22.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel22.setForeground(new java.awt.Color(255, 255, 255));
         jLabel22.setText("Lapangan 1");
 
-        jLabel23.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel23.setForeground(new java.awt.Color(255, 255, 255));
         jLabel23.setText("Rumput Sintetis");
 
-        jLabel24.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("Rp.150.000 / jam");
 
-        ButtonLapangan1.setForeground(new java.awt.Color(0, 0, 0));
-        ButtonLapangan1.setText("Lapangan 1");
+        jToggleButton5.setText("Lapangan 1");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(205, Short.MAX_VALUE)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(ButtonLapangan1)
-                    .addComponent(jLabel23)
-                    .addComponent(jLabel22)
-                    .addComponent(jLabel24))
-                .addGap(215, 215, 215))
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(107, 107, 107)
+                        .addComponent(jLabel22))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addGap(92, 92, 92)
+                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jToggleButton5)
+                            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jLabel23)
+                                .addComponent(jLabel24)))))
+                .addContainerGap(87, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 247, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel24)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(ButtonLapangan1)
+                .addComponent(jToggleButton5)
                 .addGap(12, 12, 12))
         );
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 156, -1, -1));
-
-        jPanel5.setBackground(new java.awt.Color(35, 45, 63));
+        jPanel5.setBackground(new java.awt.Color(29, 62, 83));
         jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED, java.awt.Color.white, java.awt.Color.white));
         jPanel5.setPreferredSize(new java.awt.Dimension(515, 352));
 
-        jLabel25.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel25.setForeground(new java.awt.Color(255, 255, 255));
         jLabel25.setText("Lapangan 2");
 
-        jLabel26.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel26.setForeground(new java.awt.Color(255, 255, 255));
         jLabel26.setText("Karpet");
 
-        jLabel27.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel27.setForeground(new java.awt.Color(255, 255, 255));
         jLabel27.setText("Rp.170.000 / jam");
 
-        ButtonLapangan2.setForeground(new java.awt.Color(0, 0, 0));
-        ButtonLapangan2.setText("Lapangan 2");
-        ButtonLapangan2.addActionListener(new java.awt.event.ActionListener() {
+        jToggleButton6.setText("Lapangan 2");
+        jToggleButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonLapangan2ActionPerformed(evt);
+                jToggleButton6ActionPerformed(evt);
             }
         });
 
@@ -1409,85 +1289,144 @@ public class BookingRequest extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(234, Short.MAX_VALUE)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(ButtonLapangan2)
-                    .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel27)
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel26)
-                            .addComponent(jLabel25))))
-                .addGap(186, 186, 186))
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(89, 89, 89)
+                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel27)
+                            .addComponent(jToggleButton6)))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(114, 114, 114)
+                        .addComponent(jLabel26))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addGap(101, 101, 101)
+                        .addComponent(jLabel25)))
+                .addContainerGap(86, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel25)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 241, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
                 .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel27)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(ButtonLapangan2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jToggleButton6)
                 .addGap(12, 12, 12))
         );
 
-        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(747, 156, -1, -1));
-
-        TextFieldNamaTeam.setBackground(new java.awt.Color(255, 255, 255));
-        TextFieldNamaTeam.setForeground(new java.awt.Color(0, 0, 0));
-        TextFieldNamaTeam.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 91, 65), 2));
-        TextFieldNamaTeam.setCaretColor(new java.awt.Color(0, 0, 0));
-        TextFieldNamaTeam.setSelectedTextColor(new java.awt.Color(0, 0, 0));
-        TextFieldNamaTeam.setSelectionColor(new java.awt.Color(255, 255, 255));
-        jPanel1.add(TextFieldNamaTeam, new org.netbeans.lib.awtextra.AbsoluteConstraints(147, 526, 421, -1));
+        jTextField3.setSelectedTextColor(new java.awt.Color(0, 0, 0));
+        jTextField3.setSelectionColor(new java.awt.Color(255, 255, 255));
 
         jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setText("Nama Team :");
-        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(71, 529, -1, -1));
 
-        ButtonBooking.setBackground(new java.awt.Color(0, 91, 65));
-        ButtonBooking.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        ButtonBooking.setText("BOOKING");
-        ButtonBooking.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ButtonBookingActionPerformed(evt);
-            }
-        });
-        jPanel1.add(ButtonBooking, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 660, 440, -1));
+        jButton1.setBackground(new java.awt.Color(29, 62, 83));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("BOOKING");
 
         jLabel29.setForeground(new java.awt.Color(255, 255, 255));
         jLabel29.setText("No Telp        :");
-        jPanel1.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(72, 557, -1, -1));
 
-        TextFieldNoTelp.setBackground(new java.awt.Color(255, 255, 255));
-        TextFieldNoTelp.setForeground(new java.awt.Color(0, 0, 0));
-        TextFieldNoTelp.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 91, 65), 2));
-        TextFieldNoTelp.setCaretColor(new java.awt.Color(0, 0, 0));
-        TextFieldNoTelp.setSelectedTextColor(new java.awt.Color(0, 0, 0));
-        TextFieldNoTelp.setSelectionColor(new java.awt.Color(255, 255, 255));
-        jPanel1.add(TextFieldNoTelp, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 554, 423, -1));
+        jTextField4.setSelectedTextColor(new java.awt.Color(0, 0, 0));
+        jTextField4.setSelectionColor(new java.awt.Color(255, 255, 255));
 
-        jButton2.setBackground(new java.awt.Color(0, 91, 65));
+        jPanel6.setBackground(new java.awt.Color(37, 75, 98));
+
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setForeground(new java.awt.Color(29, 62, 83));
         jButton2.setText("Home");
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(29, 62, 83));
+        jButton3.setText("Booking");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jButton2)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3)
+                .addContainerGap(632, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(13, Short.MAX_VALUE)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton2)
+                    .addComponent(jButton3))
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 963, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(74, 74, 74)
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(112, 112, 112)
+                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(111, 111, 111)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel28)
+                            .addComponent(jLabel29))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, 421, Short.MAX_VALUE)
+                            .addComponent(jTextField3)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(129, 129, 129)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 563, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, 191, Short.MAX_VALUE))
+                .addGap(34, 34, 34)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel28))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel29))
+                .addGap(18, 18, 18)
+                .addComponent(jButton1)
+                .addContainerGap(37, Short.MAX_VALUE))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 800, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -1605,87 +1544,65 @@ public class BookingRequest extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton48ActionPerformed
 
-    private void ButtonWaktu1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu1ActionPerformed
+    private void jToggleButton62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton62ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu1ActionPerformed
+    }//GEN-LAST:event_jToggleButton62ActionPerformed
 
-    private void ButtonWaktu2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu2ActionPerformed
+    private void jToggleButton64ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton64ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu2ActionPerformed
+    }//GEN-LAST:event_jToggleButton64ActionPerformed
 
-    private void ButtonWaktu3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu3ActionPerformed
+    private void jToggleButton65ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton65ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu3ActionPerformed
+    }//GEN-LAST:event_jToggleButton65ActionPerformed
 
-    private void ButtonWaktu4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu4ActionPerformed
+    private void jToggleButton66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton66ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu4ActionPerformed
+    }//GEN-LAST:event_jToggleButton66ActionPerformed
 
-    private void ButtonWaktu5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu5ActionPerformed
+    private void jToggleButton67ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton67ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu5ActionPerformed
+    }//GEN-LAST:event_jToggleButton67ActionPerformed
 
-    private void ButtonWaktu6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu6ActionPerformed
+    private void jToggleButton68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton68ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu6ActionPerformed
+    }//GEN-LAST:event_jToggleButton68ActionPerformed
 
-    private void ButtonWaktu7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu7ActionPerformed
+    private void jToggleButton69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton69ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu7ActionPerformed
+    }//GEN-LAST:event_jToggleButton69ActionPerformed
 
-    private void ButtonWaktu8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu8ActionPerformed
+    private void jToggleButton63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton63ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu8ActionPerformed
+    }//GEN-LAST:event_jToggleButton63ActionPerformed
 
-    private void ButtonWaktu10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu10ActionPerformed
+    private void jToggleButton70ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton70ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu10ActionPerformed
+    }//GEN-LAST:event_jToggleButton70ActionPerformed
 
-    private void ButtonWaktu9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu9ActionPerformed
+    private void jToggleButton71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton71ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu9ActionPerformed
+    }//GEN-LAST:event_jToggleButton71ActionPerformed
 
-    private void ButtonWaktu12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu12ActionPerformed
+    private void jToggleButton72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton72ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu12ActionPerformed
+    }//GEN-LAST:event_jToggleButton72ActionPerformed
 
-    private void ButtonWaktu11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu11ActionPerformed
+    private void jToggleButton73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton73ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu11ActionPerformed
+    }//GEN-LAST:event_jToggleButton73ActionPerformed
 
-    private void ButtonWaktu13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu13ActionPerformed
+    private void jToggleButton74ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton74ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu13ActionPerformed
+    }//GEN-LAST:event_jToggleButton74ActionPerformed
 
-    private void ButtonWaktu14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonWaktu14ActionPerformed
+    private void jToggleButton75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton75ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonWaktu14ActionPerformed
+    }//GEN-LAST:event_jToggleButton75ActionPerformed
 
-    private void ButtonLapangan2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonLapangan2ActionPerformed
+    private void jToggleButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton6ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ButtonLapangan2ActionPerformed
-
-    private void ButtonBookingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ButtonBookingActionPerformed
-        String jamMain = "07:00:08:00";
-        String lapangan = "lapangan 1";
-        String namaTeam = TextFieldNamaTeam.getText();
-        String noTelp = TextFieldNoTelp.getText();
-        
-        BookingCreateRequest bookingCreateRequest = new BookingCreateRequest(jamMain, lapangan, namaTeam, noTelp);
-        
-        BookingFrameRepository repository = new BookingFrameRepository();
-        repository.Booking(bookingCreateRequest);
-    }//GEN-LAST:event_ButtonBookingActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-       this.hide();
-       ListBooking listBooking = new ListBooking();
-       listBooking.show();
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_jToggleButton6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1724,28 +1641,9 @@ public class BookingRequest extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton ButtonBooking;
-    private javax.swing.JToggleButton ButtonLapangan1;
-    private javax.swing.JToggleButton ButtonLapangan2;
-    private javax.swing.JToggleButton ButtonWaktu1;
-    private javax.swing.JToggleButton ButtonWaktu10;
-    private javax.swing.JToggleButton ButtonWaktu11;
-    private javax.swing.JToggleButton ButtonWaktu12;
-    private javax.swing.JToggleButton ButtonWaktu13;
-    private javax.swing.JToggleButton ButtonWaktu14;
-    private javax.swing.JToggleButton ButtonWaktu2;
-    private javax.swing.JToggleButton ButtonWaktu3;
-    private javax.swing.JToggleButton ButtonWaktu4;
-    private javax.swing.JToggleButton ButtonWaktu5;
-    private javax.swing.JToggleButton ButtonWaktu6;
-    private javax.swing.JToggleButton ButtonWaktu7;
-    private javax.swing.JToggleButton ButtonWaktu8;
-    private javax.swing.JToggleButton ButtonWaktu9;
-    private javax.swing.JTextField TextFieldNamaTeam;
-    private javax.swing.JTextField TextFieldNoTelp;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JDesktopPane jDesktopPane10;
     private javax.swing.JDesktopPane jDesktopPane2;
     private javax.swing.JDesktopPane jDesktopPane3;
@@ -1783,12 +1681,14 @@ public class BookingRequest extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
     private javax.swing.JToggleButton jToggleButton1;
     private javax.swing.JToggleButton jToggleButton10;
     private javax.swing.JToggleButton jToggleButton11;
@@ -1832,7 +1732,23 @@ public class BookingRequest extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton46;
     private javax.swing.JToggleButton jToggleButton47;
     private javax.swing.JToggleButton jToggleButton48;
+    private javax.swing.JToggleButton jToggleButton5;
+    private javax.swing.JToggleButton jToggleButton6;
+    private javax.swing.JToggleButton jToggleButton62;
+    private javax.swing.JToggleButton jToggleButton63;
+    private javax.swing.JToggleButton jToggleButton64;
+    private javax.swing.JToggleButton jToggleButton65;
+    private javax.swing.JToggleButton jToggleButton66;
+    private javax.swing.JToggleButton jToggleButton67;
+    private javax.swing.JToggleButton jToggleButton68;
+    private javax.swing.JToggleButton jToggleButton69;
     private javax.swing.JToggleButton jToggleButton7;
+    private javax.swing.JToggleButton jToggleButton70;
+    private javax.swing.JToggleButton jToggleButton71;
+    private javax.swing.JToggleButton jToggleButton72;
+    private javax.swing.JToggleButton jToggleButton73;
+    private javax.swing.JToggleButton jToggleButton74;
+    private javax.swing.JToggleButton jToggleButton75;
     private javax.swing.JToggleButton jToggleButton8;
     private javax.swing.JToggleButton jToggleButton9;
     // End of variables declaration//GEN-END:variables
