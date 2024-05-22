@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package bookingFrame;
+import userFrame.ListBooking;
 
 /**
  *
@@ -134,8 +135,7 @@ public class BookingRequest extends javax.swing.JFrame {
         jLabel29 = new javax.swing.JLabel();
         jTextField4 = new javax.swing.JTextField();
         jPanel6 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jButtonHome = new javax.swing.JButton();
 
         jTextField1.setSelectedTextColor(new java.awt.Color(0, 0, 0));
         jTextField1.setSelectionColor(new java.awt.Color(255, 255, 255));
@@ -1337,13 +1337,14 @@ public class BookingRequest extends javax.swing.JFrame {
 
         jPanel6.setBackground(new java.awt.Color(37, 75, 98));
 
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(29, 62, 83));
-        jButton2.setText("Home");
-
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(29, 62, 83));
-        jButton3.setText("Booking");
+        jButtonHome.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButtonHome.setForeground(new java.awt.Color(29, 62, 83));
+        jButtonHome.setText("Home");
+        jButtonHome.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonHomeActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -1351,18 +1352,14 @@ public class BookingRequest extends javax.swing.JFrame {
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton2)
-                .addGap(18, 18, 18)
-                .addComponent(jButton3)
-                .addContainerGap(632, Short.MAX_VALUE))
+                .addComponent(jButtonHome)
+                .addContainerGap(726, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(13, Short.MAX_VALUE)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                .addComponent(jButtonHome)
                 .addContainerGap())
         );
 
@@ -1604,6 +1601,13 @@ public class BookingRequest extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton6ActionPerformed
 
+    private void jButtonHomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHomeActionPerformed
+       this.hide();
+       ListBooking userFrame = new ListBooking();
+       userFrame.show();
+       
+    }//GEN-LAST:event_jButtonHomeActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1642,8 +1646,7 @@ public class BookingRequest extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButtonHome;
     private javax.swing.JDesktopPane jDesktopPane10;
     private javax.swing.JDesktopPane jDesktopPane2;
     private javax.swing.JDesktopPane jDesktopPane3;

@@ -1,13 +1,15 @@
 package futsal;
 
-import bookingFrame.BookingRequest;
+import registrasiFrame.Registrasi;
 import APP.DB;
+import mainFrame.Main;
 
 public class futsalRequest {
     
     public static void main(String[] args) {
-        BookingRequest bookingRequest = new BookingRequest();
-        bookingRequest.show(); 
+        Main mainFrame = new Main();
+        mainFrame.show();
+        
         
         DB.loadConnection();
     }

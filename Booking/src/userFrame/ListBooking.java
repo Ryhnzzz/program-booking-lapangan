@@ -3,6 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package userFrame;
+import mainFrame.Main;
+import bookingFrame.BookingRequest;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -38,7 +41,7 @@ public class ListBooking extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
+        jTable = new javax.swing.JTable();
         jPanel5 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -85,10 +88,20 @@ public class ListBooking extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(29, 62, 83));
         jButton1.setText("Home");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton2.setForeground(new java.awt.Color(29, 62, 83));
         jButton2.setText("Booking");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -134,10 +147,10 @@ public class ListBooking extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTable2.setBackground(new java.awt.Color(29, 62, 83));
-        jTable2.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
-        jTable2.setForeground(new java.awt.Color(255, 255, 255));
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        jTable.setBackground(new java.awt.Color(29, 62, 83));
+        jTable.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        jTable.setForeground(new java.awt.Color(255, 255, 255));
+        jTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {"                 1.", "     08:00-09.00 WIB", "      23 April 2024", "             Lap.1", "         Rp.150.000", "              Cancel"},
                 {"                 2.", "    10:00-11.00 WIB", "      23 April 2024", "             Lap.1", "         Rp.150.000 ", "              Cancel"},
@@ -148,10 +161,10 @@ public class ListBooking extends javax.swing.JFrame {
                 "No.", "Jadwal", "Tanggal", "Lapangan", "Total Harga", "Batal"
             }
         ));
-        jTable2.setGridColor(new java.awt.Color(255, 255, 255));
-        jTable2.setRowHeight(50);
-        jTable2.setShowGrid(true);
-        jScrollPane1.setViewportView(jTable2);
+        jTable.setGridColor(new java.awt.Color(255, 255, 255));
+        jTable.setRowHeight(50);
+        jTable.setShowGrid(true);
+        jScrollPane1.setViewportView(jTable);
 
         jPanel5.setBackground(new java.awt.Color(37, 75, 98));
         jPanel5.setFocusCycleRoot(true);
@@ -248,6 +261,35 @@ public class ListBooking extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+       this.hide();
+       Main main = new Main();
+       main.show();
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        String selectedDate = JOptionPane.showInputDialog(this, "Masukkan Tanggal:", "Input Tanggal", JOptionPane.PLAIN_MESSAGE);
+    if (selectedDate == null || selectedDate.isEmpty()) {
+        System.out.println("Tanggal tidak dimasukkan.");
+        return;
+    }
+    System.out.println("Tanggal yang dipilih: " + selectedDate);
+    
+    // Memunculkan dialog input lapangan
+    String[] lapanganList = {"Lap.1", "Lap.2", "Lap.3"};
+    String selectedField = (String) JOptionPane.showInputDialog(this, "Pilih Lapangan:", "Input Lapangan",
+            JOptionPane.PLAIN_MESSAGE, null, lapanganList, lapanganList[0]);
+    if (selectedField == null || selectedField.isEmpty()) {
+        System.out.println("Lapangan tidak dipilih.");
+        return;
+    }
+    System.out.println("Lapangan yang dipilih: " + selectedField);
+       
+       this.hide();
+       BookingRequest bookingRequestFrame = new BookingRequest();
+       bookingRequestFrame.show();
+    }//GEN-LAST:event_jButton2ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -303,6 +345,6 @@ public class ListBooking extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable;
     // End of variables declaration//GEN-END:variables
 }
